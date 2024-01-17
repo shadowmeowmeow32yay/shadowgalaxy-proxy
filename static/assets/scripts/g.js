@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: '! Request A Game [UPDATED]',
+      name: '! Request A Game',
       link: 'https://forms.gle/94fJ9yAXQCgaXTrz6',
       image: '/assets/media/icons/request.webp',
       categories: ['all'],
@@ -286,6 +286,41 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://f.silvergames.com/awayfl/index.html?swf=burrito-bison.swf',
       image: '/assets/media/icons/burritobison.webp',
       categories: ['all'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 2 In The Light Temple',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40210/',
+      image: '/assets/media/icons/fireboyandwatergirllighttemple.jpg',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 4 In The Crystal Temple',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40212/',
+      image: '/assets/media/icons/fireboyandwatergirlcrystaltemple.jpg',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 5: Elements',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40218',
+      image: '/assets/media/icons/fireboyandwatergirlelements.jpg',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl 6: Fairy Tales',
+      link: 'https://html5.gamedistribution.com/rvvASMiM/be3cff113c4e4f069b7614851825ffe9/index.html',
+      image: '/assets/media/icons/fireboyandwatergirlfairytales.webp',
+      categories: ['all', '2P'],
+      error: false,
+    },
+    {
+      name: 'Fireboy And Watergirl In The Forest Temple',
+      link: 'https://www.coolmathgames.com/sites/default/files/public_games/40034/',
+      image: '/assets/media/icons/fireboyandwatergirlfairytales.webp',
+      categories: ['all', '2P'],
       error: false,
     },
     {
@@ -1459,7 +1494,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: 'Roblox (Now.GG)',
-      link: 'https://now.gg/play/roblox-corporation/5349/roblox',
+      link: 'https://now.gg/iframe/snippet?app_pkg=com.roblox.client&partner=gamenora',
       image: '/assets/media/icons/roblox.png',
       categories: ['all', 'emu'],
     },
@@ -1486,6 +1521,60 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://retrogamesonline.io/parappa-the-rapper.embed',
       image: 'https://retrogamesonline.io/cache/data/image/game/parappa-the-rapper-1-f220x180.jpg',
       categories: ['all', 'emu'],
+    },
+    {
+      name: 'Half-Life',
+      link: 'https://x8bitrain.github.io/webXash/',
+      image: '/assets/media/icons/half-life.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Kiomet',
+      link: 'https://kiomet.com',
+      image: '/assets/media/icons/kiomet.webp',
+      categories: ['all'],
+    },
+    {
+      name: 'Tribals.io',
+      link: 'https://tribals.io/',
+      image: '/assets/media/icons/tribalsio.jpg',
+      categories: ['all'],
+    },
+    {
+      name: 'Counter Strike 1.6',
+      link: 'https://play-cs.com/en/servers',
+      image: '/assets/media/icons/cs16.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Narrow One',
+      link: 'https://narrow.one',
+      image: '/assets/media/icons/narrowone.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Kirka',
+      link: 'https://kirka.io',
+      image: '/assets/media/icons/kirka.jpg',
+      categories: ['all'],
+    },
+    {
+      name: 'Cryzen',
+      link: 'https://cryzen.io',
+      image: '/assets/media/icons/cryzen.png',
+      categories: ['all'],
+    },
+    {
+      name: 'Hordes',
+      link: 'https://hordes.io',
+      image: '/assets/media/icons/hordes.jpg',
+      categories: ['all'],
+    },
+    {
+      name: 'Venge',
+      link: 'https://venge.io',
+      image: '/assets/media/icons/venge.png',
+      categories: ['all'],
     },
   ]
 
